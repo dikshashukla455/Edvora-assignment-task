@@ -85,12 +85,12 @@ div[role="button"] {
 
 
 .drop_menu li {
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 .drop_menu li:first-child {
 
-    font-size: 20px;
+    font-size: 18px;
     padding-bottom: 12px;
     margin-bottom: 20px;
     border-bottom: 1px solid #CBCBCB;
@@ -102,8 +102,9 @@ div[role="button"] {
 }
 
 .control {
-    width: 10.528rem;
-    padding: 8px 12px;
+    font-size:16px;
+    width: 10.6rem;
+    padding: 10px 12px;
     background: #232323;
     border-radius: 4.69px;
     border: none;

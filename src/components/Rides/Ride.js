@@ -1,5 +1,5 @@
 import styles from './Rides.module.css';
-import map from '../../assets/map.png';
+import Map from '../../assets/map.png';
 import { calcDistance } from '../../utils/helpers/helpers';
 
 export const Ride = ( props ) => {
@@ -14,7 +14,7 @@ export const Ride = ( props ) => {
         station_code
     } = props;
 
-    const { _map, ride, ride_d, val, badges, badge } = styles;
+    const { map, ride, ride_d, val, badges, badge } = styles;
     const d = new Date( date * 1000 );
 
 
@@ -26,10 +26,10 @@ export const Ride = ( props ) => {
     const distance = calcDistance( station_path,  station_code );
 
     return (
-        <div className='--container'>
+        <div className='container'>
             <div className = { ride }>
-                <div className = { _map }>
-                    <img src = { map } alt = "map"/>
+                <div className = { map }>
+                    <img src = { Map } alt = "map"/>
                 </div>
 
                 <div className = { ride_d }>

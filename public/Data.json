@@ -11,8 +11,8 @@
         "destination_station_code": 93,
         "date": 1644924365,
         "map_url": "url",
-        "state": "California",
-        "city": "Los Angeles"
+        "state": "Gujarat",
+        "city": "GandhiNagar"
     },
     {
         "id": "002",
@@ -21,8 +21,8 @@
         "destination_station_code": 98,
         "date": 1665470022,
         "map_url": "url",
-        "state": "California",
-        "city": "San Francisco"
+        "state": "Punjab",
+        "city": "Chandigarh"
     },
     {
         "id": "003",
@@ -31,7 +31,7 @@
         "destination_station_code": 91,
         "date": 1644924365,
         "map_url": "url",
-        "state": "Washington",
-        "city": "Olympia"
+        "state": "Assam",
+        "city": "Dispur"
     }]
 }

@@ -1,10 +1,10 @@
 
 .main_nav {
-    padding: 1.25rem 0;
+    padding: 1.35rem 0;
     background-color: var(--navbar-bg);
 }
 
-._logo {
+.logo {
     max-width: 114px;
 
 }
@@ -15,12 +15,12 @@
     align-items: center;
 }
 
-._logo img {
+.logo img {
     width: 100%;
 }
 
 
-._avatar {
+.avatar {
     display: flex;
     align-items: center;
     width: 44px;
@@ -36,6 +36,6 @@
     font-size: 1.25rem;
 }
 
-._avatar img {
+.avatar img {
     width: 100%;
 }

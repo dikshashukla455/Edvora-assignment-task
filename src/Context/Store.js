@@ -11,7 +11,7 @@ function StoreProvider({ children }) {
     const [ user, setUser ] = useState({});
     const [ ride, setRide ] = useState([]); 
     const [ filters, setFilters ] = useState({ state:"", city: "" });
-    const [ status, setStatus ] = useState(""); // upcoming, past
+    const [ rides, setRides ] = useState(""); // upcoming, past
 
 
     // Fetching Date
@@ -116,7 +116,7 @@ function StoreProvider({ children }) {
 
     const getRides = () => {
 
-        switch(status) {
+        switch(rides) {
             case "upcoming": 
             return selectUpcomingRides();
 
@@ -137,8 +137,8 @@ function StoreProvider({ children }) {
         /////////////////////////////////////////////////////////////
     */
 
-    const handleStatus = ( state ) => {
-        setStatus( state );
+    const handleRides = ( state ) => {
+        setRides( state );
     }
 
 
@@ -149,13 +149,13 @@ function StoreProvider({ children }) {
 
 
     const value = {
-        handleStatus,
+        handleRides,
         handleFilters,
         selectUpcomingRides,
         selectPastRides,
         getRides,
         filters,
-        status,
+        rides,
         ride,
         user,
     };

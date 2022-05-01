@@ -48,8 +48,8 @@ export const DropMenu = ({ setMenu }) => {
                 value = { filters.state } 
                 className = { control }>
                     <option value = "">State</option>
-                    <option value = "Washington">Washington</option>
-                    <option value = "California">California</option>
+                    <option value = "Assam">Assam</option>
+                    <option value = "Gujarat">Gujarat</option>
                 </select>
             </li>
             
@@ -59,9 +59,9 @@ export const DropMenu = ({ setMenu }) => {
                 value = { filters.city } 
                 className = { control }>
                     <option value = "">City</option>
-                    <option value = "Olympia">Olympia</option>
-                    <option value = "San Francisco">San Francisco</option>
-                    <option value = "Los Angeles">Los Angeles</option>
+                    <option value = "GandhiNagar">GandhiNagar</option>
+                    <option value = "Chandigarh">Chandigarh</option>
+                    <option value = "Dispur">Dispur</option>
                 </select>
             </li>
         </ul>
